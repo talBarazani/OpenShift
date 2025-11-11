@@ -8,6 +8,4 @@ spec:
       port: {{ .Values.service.servicePort }}
       targetPort: {{ .Values.containers.containerPort }}
   selector:
-    app: {{ .Chart.Name }}git add.
-git commit -m "edited the HELM template for Service"
-git push
+    app: {{ .Chart.Name }}
